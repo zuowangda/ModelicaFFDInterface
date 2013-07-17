@@ -18,7 +18,7 @@ TCHAR szName[]=TEXT("MyFileMappingObject");
 int initiateFFD(){
   int status;
 
-  status = system("start CShareMemo1.exe"); // Use start to creat a new window for FFD; like fork the process
+  status = system("start ..\\..\\Fast-Fluid-Dynamics\\Debug\\FFD_SCI.exe"); // Use start to creat a new window for FFD; like fork the process
   printf("Launch FFD with status: %d\n", status);
 
   return status;
