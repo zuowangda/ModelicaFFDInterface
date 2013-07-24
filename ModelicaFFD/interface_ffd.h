@@ -2,4 +2,8 @@
 extern int initiateFFD();
 
  __declspec(dllexport)
-extern int exchangeData();
+extern int synchronizeData();
+
+  __declspec(dllexport)
+extern int endSharing();
+
